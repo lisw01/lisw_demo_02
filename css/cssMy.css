@@ -1,0 +1,70 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+.box {
+    width: 310px;
+    height: 265px;
+    margin: 200px auto;
+    position: relative;
+
+}
+.box-u {
+    width: 310px;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+}
+.box-u-d {
+    width: 620px;
+    height: 220px;
+}
+.box-u-d-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 310px;
+    height: 220px;
+}
+.box-d-ctrl-l,
+.box-d-ctrl-r {
+    width: 29px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    background: url(../images/icon.png) no-repeat 0 0;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.box-d-ctrl-l {
+    left: 6px;
+}
+.box-d-ctrl-r {
+    background-position: 0 -44px;
+    right: 6px;
+}
+.box-d {
+    text-align: center;
+    padding-top: 10px;
+}
+.box-d-ctrl-d {
+    width: 24px;
+    height: 20px;
+    display: inline-block;
+    background: url("../images/icon.png") no-repeat -24px -782px;
+    text-indent: -500em;
+    overflow: hidden;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.current {
+    background-position: -24px -762px;
+}
